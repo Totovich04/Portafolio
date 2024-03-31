@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form id="formularioMatriculacion" action="#" method="post">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña" required minlength="8" /> <br /><br />
+
+            <label for="fecha de nacimiento">Fecha de Nacimiento</label>
+            <input type="date" id="fecha de nacimiento" name="fecha de nacimiento" required /> <br /><br />
+
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad" required min="18" max="100" /><br /><br />
+
+            <label for="genero">Genero</label> <br>
+            <input type="radio" name="masculino" id="genero">Masculino<br />
+            <input type="radio" name="femenino" id="genero">Femenino <br>
+            <input type="radio" name="otro" id="genero">Otros <br> <br>
+
+            <label for="materia favorita">Materia Favorita</label>
+            <select name="materia" id="materia">
+                <option value="">Seleccione</option>
+                <option value="algebra">Algebra</option>
+                <option value="am1">AnalisisMatematico1</option>
+                <option value="f1">Fisica1</option>
+            </select>
+            <br><br>
+            
+            
+            <label for="habilidades">Habilidades</label><br/>
+            <input type="checkbox" id="bicicleta" name="habilidades" value="bicicleta" />Bicicleta<br />
+            <input type="checkbox" name="habilidades" id="nadar" value="nadar">Nadar<br />
+            <input type="checkbox" name="habilidades" id="futbol" value="futbol">Futbol<br />
+            <br/>
+
+            <label for="nivel de interes">Nivel de Interes</label><br />
+            <select name="nivel de interes" id="nivel de interes" required>
+                <option value="">Seleccione</option>
+                <option value="bajo">Bajo</option>
+                <option value="medio">Medio</option>
+                <option value="alto">Alto</option>
+            </select><br /><br />
+
+            <label for="comentarios">Comentarios Adicionales</label><br />
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10">Ingrese su respuesta</textarea><br /><br />
+
+            <button type="submit">Subir</button>
+        </form>
+    </main>
+</body>
+</html>
