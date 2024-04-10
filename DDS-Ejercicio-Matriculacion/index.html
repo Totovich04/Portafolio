@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FormularioMatriculacion</title>
+  </head>
+  <body>
+    <form>
+      <div class="row mb-3">
+        <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputNombre" required>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="inputFecha" class="col-sm-2 col-form-label" >Fecha de Nacimiento</label>
+        <div class="col-sm-10">
+          <input type="date" id="inputFecha" class="form-control" required>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="inputEdad" class="col-sm-2 col-form-label">Edad</label>
+        <div class="col-sm-10">
+          <input type="number" min="18" id="inputEdad" class="form-control" required>
+        </div>
+      </div>
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Genero</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Masculino" checked>
+            <label class="form-check-label" for="gridRadios1">
+              Masculino
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Femenino">
+            <label class="form-check-label" for="gridRadios2">
+              Femenino
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="Otros">
+            <label class="form-check-label" for="gridRadios3">
+              Otros
+            </label>
+          </div>
+        </div>
+      </fieldset>
+      <div class="col-auto">
+        <label class="visually-hidden" for="autoSizingSelect">Materias</label>
+        <select class="form-select" id="autoSizingSelect" required>
+          <option selected>Seleccione...</option>
+          <option value="AM1">Analisis Matematico1</option>
+          <option value="F1">Fisica1</option>
+          <option value="AED">Algoritmo Estructura de Datos</option>
+        </select>
+      </div>
+      <fieldset class="row mb-3">
+      <legend class="col-form-label col-sm-2 pt-0">Habilidades</legend>
+      <div class="row mb-3">
+        <div class="col-sm-10 offset-sm-2">
+          <div class="form-check col-auto" aria-required="true">
+            <input class="form-check-input" type="checkbox" id="Ajedrez">
+            <label class="form-check-label" for="Ajedrez">
+            Ajedrez
+            </label>
+            <input type="checkbox" class="form-check-input" id="Deportes">
+            <label for="Deportes" class="form-check-label">Deportes</label>
+            <input type="checkbox" class="form-check-input" id="Jueguitos">
+            <label for="Jueguitos" class="form-check-label">Jueguitos</label>
+          </div>
+        </div>
+      </div>
+    </fieldset><br>
+      <div class="col-auto">
+        <label class="visually-hidden" for="autoSizingSelect">Nivel de Interes</label>
+        <select class="form-select" id="autoSizingSelect" required>
+          <option selected>Seleccione...</option>
+          <option value="Bajo">Bajo</option>
+          <option value="Medio">Medio</option>
+          <option value="Alto">Alto</option>
+        </select>
+      </div><br>
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Comentarios</legend>
+        <textarea id="inputText" cols="autoSizingSelect" rows="mb-3">Ingrese sus Comentarios Adicionales</textarea>
+      </fieldset>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </body>
+</html>

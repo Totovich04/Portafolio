@@ -1,0 +1,34 @@
+
+Ejercicio: Formulario de Matriculación de Estudiantes
+
+Instrucciones:
+==============
+Crea un formulario de registro de estudiantes en la página index.html para una clase utilizando los elementos proporcionados. Completa el formulario con la información solicitada y envíalo haciendo uso del método GET.
+
+Elementos Requeridos:
+=====================
+Nombre completo del estudiante.
+Fecha de nacimiento del estudiante.
+Edad del estudiante.
+Género del estudiante (Masculino/Femenino/Otro).
+Materia favorita del estudiante (seleccionar una opción de una lista desplegable).
+Habilidades (seleccionar una o más opciones de una lista de opciones).
+Nivel de interés en la materia (seleccionar una opción de una lista de opciones).
+Comentarios adicionales sobre el estudiante (área de texto).
+
+Requisitos Técnicos:
+====================
+Utiliza etiquetas <label> para describir cada campo del formulario.
+Utiliza elementos <input> para los campos de texto, fecha y número.
+Utiliza un elemento <select> para la selección de la materia favorita.
+Utiliza elementos <input type="checkbox"> para seleccionar las habilidades.
+Utiliza elementos <input type="radio"> para seleccionar el nivel de interés.
+Utiliza un elemento <textarea> para los comentarios adicionales.
+Incluye un botón de tipo submit para enviar el formulario.
+
+Notas:
+=====
+Completa todos los campos del formulario antes de enviarlo.
+Asegúrate de que la información ingresada sea clara y precisa.
+Después de enviar el formulario, verifica o comprueba que todos los datos se envíen correctamente mediante la URL.
+
